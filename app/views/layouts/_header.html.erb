@@ -1,4 +1,6 @@
+
 <nav class="navbar navbar-default" role="navigation">
+  <div clas="container">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,7 +10,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Whojam</a>
+      
+      <%= link_to 'Whojam', root_path, class: "navbar-brand" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,6 +24,10 @@
         </div>
         <button type="submit" class="btn btn-default">Go!</button>
       </form>
+
+
+
+
 
       <ul class="nav navbar-nav navbar-right">
         <li> <li> <%= link_to 'Home', root_path %> </li> </li>
@@ -37,7 +44,7 @@
           </ul>
         </li>
       </ul>
-
+    </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
