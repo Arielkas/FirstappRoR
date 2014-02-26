@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 $font-family-sans-serif:	    'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-default-bg: 			black;
+$navbar-default-bg: 			#1A1A1A;
 $body-bg:						white;
 $navbar-default-color: 							#c0392b;
 $navbar-default-brand-color:          			 #c0392b;
 $brand-primary:                                    #2ecc71;
-$jumbotron-bg:                                         black;
+$jumbotron-bg:                                        #1A1A1A;
 
 
 
@@ -19,12 +19,18 @@ $jumbotron-bg:                                         black;
      text-align: center;
 }
 
+
+
+
 .navbar-brand {
-     font-weight: bold;
+    height:45%;
+    width: 45%;
+    
 }
 
 
 .navbar {
+	height:   55px;
 	color: white;
     border-top: 3px  #c0392b solid;
 
@@ -48,7 +54,7 @@ $jumbotron-bg:                                         black;
 .jumbotron:hover {
 
          border: 1px  #2ecc71 solid;
-         //transition: all 2s ease-in;
+         transition: all 2s ease-in;
 
 }
 
@@ -57,8 +63,8 @@ $jumbotron-bg:                                         black;
 
 body
 {
-background-image: url("http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg");
+background: url("http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg");
 background-attachment: fixed; /* Le fond restera fixe */ 
 background-position: center;
-transition: all 2s ease-in;
-}
+
+    }
