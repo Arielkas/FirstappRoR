@@ -15,7 +15,7 @@ gem 'jbuilder', '~> 1.2'
 
 
 
-group :developent,:test do
+group :development,:test do
 		gem 'sqlite3'
  	end
 
