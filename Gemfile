@@ -13,6 +13,8 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem "paperclip", "~> 4.1"
 gem 'masonry-rails', "~> 0.2.0"
+gem 'will_paginate', "~> 3.0"
+gem 'will_paginate-bootstrap'
 
 
 
